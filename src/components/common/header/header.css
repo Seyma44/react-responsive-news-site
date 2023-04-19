@@ -1,0 +1,103 @@
+.head {
+  cursor: pointer;
+}
+
+.head .logo img {
+  width: 450px;
+}
+
+.head .ad img {
+  width: 450px;
+}
+
+header {
+  background-color: #4890fc;
+  color: #fff;
+}
+
+header li {
+  margin-right: 30px;
+  transition: 0.5s;
+}
+
+header li:hover {
+  color: crimson;
+  cursor: pointer;
+}
+
+header a {
+  color: #fff;
+}
+
+.barIcon {
+  font-size: 25px;
+  background: none;
+  color: #fff;
+  display: none;
+  border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .head .ad {
+    display: none;
+  }
+  header .icon {
+    display: none;
+  }
+  header .flex {
+    display: none;
+  }
+  .barIcon {
+    display: block;
+  }
+  header .navbar {
+    position: absolute;
+    display: block;
+    background-color: #fb4c35;
+    left: 0;
+    top: 50%;
+    transition: 0.5s;
+    width: 100%;
+    height: 60vh;
+    z-index: 5;
+    padding: 10px;
+  }
+  header .navbar {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  header ul li {
+    margin-bottom: 30px;
+  }
+  header li {
+    margin-right: 0;
+    text-align: center;
+  }
+  header li:hover {
+    color: #fff;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .head .logo img {
+    width: 120px;
+  }
+  .head .ad img {
+    display: none;
+  }
+  header li {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 14px;
+  }
+  header .navbar {
+    top: 23%;
+    height: 33vh;
+    padding: 5px;
+    right:0
+  }
+  header ul li {
+    margin-bottom: 20px;
+  }
+}
