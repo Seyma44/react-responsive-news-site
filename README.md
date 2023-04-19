@@ -1,6 +1,8 @@
 # React News Web Site
 This is a responsive news website built using React. It provides a simple and easy-to-use interface to browse the latest news articles from various categories. The website uses JSON data to display news articles.
 
+![Studio_Project (10) (1)-min (1)](https://user-images.githubusercontent.com/3766249/232949395-b20af47f-5f18-4b95-885d-108eab15b66d.gif)
+
 https://user-images.githubusercontent.com/3766249/232947125-d76f08e7-2fa9-4fa5-a839-fafecfbbb4e6.mp4
 
 https://user-images.githubusercontent.com/3766249/232947177-d249f5f1-ed6c-4987-8798-c3552c48524a.mp4
